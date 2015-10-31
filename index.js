@@ -1,1 +1,3 @@
-export default from "./lib/prototype-decorator";
+"use strict";
+
+module.export = require("./dist/prototype-decorator");
