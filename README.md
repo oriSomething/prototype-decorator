@@ -21,7 +21,7 @@ class Parent {
 }
 
 @prototype({ hello: "hello world!" })
-class Child {}
+class Child extends Parent {}
 
 new Child(); // log: hello world!
 
