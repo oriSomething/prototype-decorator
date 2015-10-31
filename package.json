@@ -14,7 +14,7 @@
     "es7",
     "es2016"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel lib --out-dir dist",
     "prepublish": "npm run build",

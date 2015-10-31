@@ -1,4 +1,4 @@
-import prototype from "../lib/prototype-decorator";
+import prototype from "../lib";
 import { expect } from "chai";
 
 
