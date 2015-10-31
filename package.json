@@ -1,0 +1,29 @@
+{
+  "name": "prototype-decorator",
+  "version": "0.0.1",
+  "description": "Initialize propeties to be used with super class constructor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oriSomething/prototype-decorator"
+  },
+  "author": "ori livni",
+  "license": "MIT",
+  "keywords": [
+    "prototype",
+    "decorator",
+    "es7",
+    "es2016"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=development mocha tests --compilers js:babel/register",
+    "test-w": "NODE_ENV=development mocha tests -w --compilers js:babel/register"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babel-eslint": "^4.1.3",
+    "chai": "^3.4.0",
+    "eslint": "^1.8.0",
+    "mocha": "^2.3.3"
+  }
+}
